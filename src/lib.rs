@@ -16,3 +16,7 @@
 extern crate ark_std;
 
 pub mod r1cs;
+
+pub fn add_from_diff_crate(x: i32) -> i32 {
+    x + 3
+}

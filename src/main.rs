@@ -27,9 +27,6 @@ use mem_gen::*;
 fn print_type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
-pub fn add_from_diff_crate(x: i32) -> i32 {
-    x + 3
-}
 
 fn main() {
     // let file = File::open("./src/data/mem_test.json").expect("file should open read only");
